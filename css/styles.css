@@ -46,7 +46,7 @@ img{
     padding-top: 24px;
     padding-bottom: 24px;
     border-bottom: 1px solid rgba(231, 233, 252, 1);
-    justify-content: space-evenly;    
+    
 }
 
 .header-container{
@@ -54,6 +54,7 @@ img{
     gap: 40px;
     padding-top: 24px;
     padding-bottom: 24px;
+    justify-content: space-evenly;
 }
 
         /* WebLogo */
@@ -226,7 +227,6 @@ width: calc((100% - 72px) / 4);}
  }
 
 .section-portfolio {
-
 } 
 
 .portfolio-title{
@@ -241,23 +241,24 @@ margin-bottom: 72px;
 }
 
 .portfolio-list{
-    display: flex;
-    gap: 48px 24px;
-    flex-wrap: wrap;
-    max-width: 1128px;
-    justify-content: center;
+display: flex;
+gap: 48px 24px;
+flex-wrap: wrap;
+max-width: 1128px;
+justify-content: center;
 }
+
 .portfolio-list > li{
-    text-align: left;
-    width: calc((100% - 48px)/3);    
+text-align: left;
+width: calc((100% - 48px)/3);    
 }
 
 .portfolio-descr{
-    padding: 32px 16px 32px 16px;
-    border: 1px solid rgba(231, 233, 252, 1);
-    border-top: 0;
-    width: 360px;
-    justify-content: center;
+padding: 32px 16px 32px 16px;
+border: 1px solid rgba(231, 233, 252, 1);
+border-top: 0;
+width: 360px;
+justify-content: center;
 }
 
 .portfolio-list > li > h3 {color: rgba(46, 47, 66, 1);
@@ -277,30 +278,30 @@ letter-spacing: 0.02em;
         /* Footer */
 
 .section-footer {background-color: rgba(46, 47, 66, 1);
-    display: block;
-    text-align: left;
-    padding-left: 156px;
+display: block;
+text-align: left;
+padding-left: 156px;
 }
 
 .footer-container{
 }
 
-    .logo-footer{
-        color: rgba(244, 244, 253, 1);
-        font-family: "Raleway", sans-serif;
-        font-size: 18px;
-        font-weight: 700;
-        line-height: 1.2;
-        letter-spacing: 0.03em;
-}
-
-    .description-footer {color: rgba(244, 244, 253, 1);
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        width: 264px;
-        margin-top: 16px;
+.logo-footer{
+color: rgba(244, 244, 253, 1);
+font-family: "Raleway", sans-serif;
+font-size: 18px;
+font-weight: 700;
+line-height: 1.2;
+letter-spacing: 0.03em;
     }
+
+.description-footer {color: rgba(244, 244, 253, 1);
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+width: 264px;
+margin-top: 16px;
+}
 
 
 
