@@ -54,7 +54,7 @@ img{
     gap: 40px;
     padding-top: 24px;
     padding-bottom: 24px;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
         /* WebLogo */
@@ -63,7 +63,6 @@ img{
     font-size: 18px;
     font-weight: 700;
     line-height: 1.7;
-    margin-left: 156px;
 }
 
 .accent-web {color: rgba(77, 90, 229, 1);}
